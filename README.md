@@ -11,7 +11,7 @@
 ### Installation
 Install this package with composer:
 ```
-composer require nickurt/laravel-plesk-xml
+composer require macromindonline/laravel-plesk-xml
 ```
 Copy the config files for the PleskXml-plugin
 ```
