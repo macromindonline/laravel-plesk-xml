@@ -19,7 +19,7 @@ class HttpClient implements HttpClientInterface
     public function getClient()
     {
         if (!isset($this->client)) {
-            $this->client = new \GuzzleHttp\Client();
+            $this->client = new \GuzzleHttp\Client(['verify' => false]);
 
             return $this->client;
         }
